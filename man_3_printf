@@ -1,4 +1,4 @@
-i.TH man 3 "19 October 2022" "Alx SE" "_PRINTF"
+i.TH man 3 "19 October 2022" "Alx SE" "PRINTF"
 .SH NAME
 .B _printf
 - formatted output conversion
@@ -100,4 +100,3 @@ That way, _putchar only needs to call write one time, passing to it the whole bu
 _printf does not take care of length and precision modifiers yet. For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
 .SH AUTHORS
 Ichu Daniel and Achu Philemon, Cohort 9.
-
